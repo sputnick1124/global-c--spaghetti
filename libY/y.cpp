@@ -1,8 +1,8 @@
 #include "y.h"
 
-#include "x.h"
+#include "x-pure.h"
 
 double quadruple(double x)
 {
-    return times_two(times_two(x));
+    return x_pure::times_two(x_pure::times_two(x));
 }

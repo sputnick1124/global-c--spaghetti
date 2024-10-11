@@ -1,6 +1,7 @@
 project(libX)
 
 add_library(X STATIC
+	x.cpp
 	x-pure.cpp
 	include/x.h
 	include/x-pure.h
