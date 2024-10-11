@@ -4,4 +4,5 @@ project(cpp_global_spaghetti CXX)
 
 add_subdirectory(common)
 add_subdirectory(libX)
+add_subdirectory(libY)
 add_subdirectory(appA)
