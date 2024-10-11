@@ -2,7 +2,6 @@ project(appA)
 
 add_executable(appA
 	a_main.cpp
-	include/a.h
 )
 
 target_link_libraries(appA PRIVATE
